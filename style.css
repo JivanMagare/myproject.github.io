@@ -631,7 +631,7 @@ footer a #linkedin{
             display: none;
     }
     
-    #three{
+    #two{
         display: none;
     }
 
@@ -767,10 +767,18 @@ footer a #linkedin{
     footer{
         width: 100%;
     }
+    
+    #three{
+        display: none;
+    }
 }
 
 @media screen and (min-width:320px) and (max-width: 568px)
 {
+     #three{
+        display: none;
+    }
+    
     .main-card{
         width: 250px;
     }
@@ -791,6 +799,10 @@ footer a #linkedin{
 
 @media screen and (min-width: 768px) and (max-width: 1024px)
 {
+     #three{
+        display: none;
+    }
+    
     .blank{display: none;}
     footer{width: 100%;}
 }
