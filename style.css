@@ -630,6 +630,10 @@ footer a #linkedin{
     .main-card2,.main-card3{
             display: none;
     }
+    
+    #two{
+        display: none;
+    }
 
     @keyframes boxNA2{
         0%{
