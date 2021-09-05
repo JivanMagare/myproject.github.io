@@ -15,11 +15,11 @@ document.getElementById("1stLink").onclick = function () {
 
 document.getElementById("2ndLink").onclick = function () {
    
-   let getInput = confirm("If you want to visit my project then press OK button !!");
-   
-   if( getInput == true )
-   {
-      window.open('https://jivanmagare.github.io/WinOS.github.io/','_blank');
-   }
-   
+    let getInput = confirm("If you want to visit my project then press OK button !!");
+
+    if( getInput == true )
+    {
+        window.open('https://jivanmagare.github.io/WinOS.github.io/','_blank');
+    }
+    
 }
