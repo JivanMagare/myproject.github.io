@@ -19,7 +19,7 @@ document.getElementById("2ndLink").onclick = function () {
    
    if( getInput == true )
    {
-      windows.open('https://jivanmagare.github.io/WinOS.github.io/','_blank');
+      window.open('https://jivanmagare.github.io/WinOS.github.io/','_blank');
    }
    
 }
