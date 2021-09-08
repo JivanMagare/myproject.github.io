@@ -23,3 +23,14 @@ document.getElementById("2ndLink").onclick = function () {
     }
     
 }
+
+document.getElementById("3rdLink").onclick = function () {
+   
+    let getInput = confirm("If you want to visit my project then press OK button !!");
+
+    if( getInput == true )
+    {
+        window.open('https://jivanmagare.github.io/ResponsiveLayout.github.io/','_blank');
+    }
+    
+}
