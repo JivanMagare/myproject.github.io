@@ -36,10 +36,12 @@ document.getElementById("3rdLink").onclick = function () {
 }
 
 document.getElementById("4thLink").onclick = function () {
-   let getInput = confirm("If you want to visit my project then press OK button !!");
    
-   if( getInput == true )
-   {
-      window.open('https://jivanmagare.github.io/Image-Processing.github.io/','_blank');
-   }
+    let getInput = confirm("If you want to visit my project then press OK button !!");
+
+    if( getInput == true )
+    {
+        window.open('https://jivanmagare.github.io/Image-Processing.github.io/','_blank');
+    }
+    
 }
