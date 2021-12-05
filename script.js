@@ -45,3 +45,14 @@ document.getElementById("4thLink").onclick = function () {
     }
     
 }
+
+document.getElementById("5thLink").onclick = function () {
+   
+    let getInput = confirm("If you want to visit my project then press OK button !!");
+
+    if( getInput == true )
+    {
+        window.open('https://jivanmagare.github.io/Note-Taking.github.io/','_blank');
+    }
+    
+}
